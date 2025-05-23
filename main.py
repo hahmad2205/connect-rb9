@@ -8,11 +8,12 @@ password = ""
 
 # Create the connection string
 conn_str = (
-    f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+    f"DRIVER={{ODBC Driver 18 for SQL Server}};"
     f"SERVER={server};"
     f"UID={username};"
     f"PWD={password};"
     f"DATABASE={database};"
+    f"TrustServerCertificate=yes;"
 )
 
 # Connect and run a test query
