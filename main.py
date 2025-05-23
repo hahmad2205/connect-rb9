@@ -1,10 +1,10 @@
 import pyodbc
 
 # Define connection parameters
-server = "rbcloud01.cloudapp.net,6011"
+server = ""
 database = "master"
-username = "RB9-13914-04"
-password = "cogentlabs1122"
+username = ""
+password = ""
 
 # Create the connection string
 conn_str = (
